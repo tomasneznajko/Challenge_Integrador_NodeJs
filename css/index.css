@@ -139,13 +139,19 @@ position: relative;
 
 .submenu{
     display: none;
+    width: 30em;
     position: absolute;
     background-color: var(--dark-bg-solid);
 
 }
 
-.submenu__item{
+.submenu__link{
     display: block;
     padding: var(--spacing-8); font-variant: var(--spacing-16);
     font-size: var(--font-medium);
+}
+
+.submenu__link:hover{
+    background-color: var(--primary-900);
+    transition: background .3s ease-in-out ;
 }
