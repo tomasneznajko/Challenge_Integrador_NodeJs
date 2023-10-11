@@ -356,6 +356,23 @@ animation: fade .7s;
     color: var(--secondary-solid);
 }
 
+/* FOOTER */
+
+.footer{
+    background-color: var(--dark-bg-solid);
+    padding: var(--spacing-68);
+}
+
+.footer__copy{
+    text-align: center;
+    margin-top: var(--spacing-36);
+}
+
+
+
+
+/* ANIMATIONS  */
+
 @keyframes fade{
     0%{
         opacity: 0;
