@@ -320,9 +320,9 @@ animation: fade .7s;
 .card-item__tag{
     background-color: var(--primary-solid);
     color: var(--light-font-solid);
-    font-family: ;
+    font-family: var(--alternative-font);
     font-size: var(--font-xsmall);
-    font-weight: ;
+    font-weight: 500;
     text-transform: uppercase;
     padding: var(--spacing-8) var(--spacing-12);
     position: absolute;
