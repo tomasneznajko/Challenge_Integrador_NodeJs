@@ -154,6 +154,9 @@ header{
         transition: background .3s ease-in-out ;
     }
 
+
+    /* SIDEBAR */
+
     .aside-titulo{
         font-family: var(--alternative-font);
         font-weight: 500;
@@ -172,8 +175,8 @@ header{
     }
 
 .principal{
-    /* display: grid;
-    grid-template-columns: 25% 75%; */
+    display: grid;
+    grid-template-columns: 25% 75%;
 }
 
 .renglon{
