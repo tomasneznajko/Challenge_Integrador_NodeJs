@@ -35,59 +35,60 @@
             </nav>
         </header>
 
-        <main class="container">
-<article>
-    <p>CREAR NUEVO ITEM</p>
-</article>
+    <main class="container">
 
-<!--ACÁ VA CATEGORIA Y LICENCIA -->
+        <section class="create">
+            <article>
+                <p class="title">CREAR NUEVO ITEM</p>
+            </article>
 
-<form action="index.js" method="get">
-    <label for="Nombre del producto"></label>
-    <input type="text" name="Nombre del producto" id="buscar" placeholder="Kakashi Hatake Shippuden Saga">
-</form>
+            <!--ACÁ VA CATEGORIA Y LICENCIA -->
 
-<form action="index.js" method="get">
-    <input type="text" name="Nombre del producto" id="buscar" placeholder="Descripción del producto">
-</form>
+            <form action="index.js" method="get" class="form__label">
+                <label for="Nombre del producto" class="label">Nombre del producto</label>
+                <input type="text" name="Nombre del producto" id="Nombre del producto" placeholder="Kakashi Hatake Shippuden Saga" class="form__input">
+            </form>
 
-<div class="formcluster">
-    <form action="index.js" method="get">
-        <label for="SKU"></label>
-        <input type="text" name="Nombre del producto" id="buscar" placeholder="SSK111AB001">
-    </form>
-    <form action="index.js" method="get">
-        <label for="Nombre del producto"></label>
-        <input type="text" name="Nombre del producto" id="buscar" placeholder="$ 0.000,00">
-    </form>
-    <form action="index.js" method="get">
-        <label for="Nombre del producto"></label>
-        <input type="text" name="Nombre del producto" id="buscar" placeholder="0">
-    </form>
-    <form action="index.js" method="get">
-        <label for="Nombre del producto"></label>
-        <input type="text" name="Nombre del producto" id="buscar" placeholder="0%">
-    </form>
-    <form action="index.js" method="get">
-        <label for="Nombre del producto"></label>
-        <input type="text" name="Nombre del producto" id="buscar" placeholder="3 cuotas sin interés">
-    </form>
+            <form action="index.js" method="get">
+                <input type="text" name="Nombre del producto" id="buscar" placeholder="Descripción del producto" class="box">
+            </form>
+
+            <!-- FORM CLUSTER -->
+
+            <div class="form__cluster">
+                <form action="index.js" method="get" class="form">
+                    <label for="Precio" class="form__label">Precio</label>
+                    <input type="text" name="Nombre del producto" id="Precio" placeholder="$ 0.000,00" class="form__input">
+                </form>
+                <form action="index.js" method="get" class="form">
+                    <label for="Stock" class="form__label">Stock</label>
+                    <input type="text" name="Nombre del producto" id="Stock" placeholder="0" class="form__input">
+                </form>
+                <form action="index.js" method="get" class="form">
+                    <label for="Descuento" class="form__label">Descuento</label>
+                    <input type="text" name="Nombre del producto" id="Descuento" placeholder="0%" class="form__input">
+                </form>
+                <form action="index.js" method="get" class="form">
+                    <label for="Cuotas" class="form__label">Cuotas</label>
+                    <input type="text" name="Nombre del producto" id="Cuotas" placeholder="3 cuotas sin interés" class="form__input">
+                </form>
                     
-</div>
+            </div>
 
-<div>
-    <p>
-        Imágenes:
-    </p>
-    <button> Elegir archivos</button>
-    <p>No se ha seleccionado ningún archivo</p>
-</div>
+                <div>
+                    <p>Imágenes:</p>
+                    <button> Elegir archivos</button>
+                    <p>No se ha seleccionado ningún archivo</p>
+                </div>
 
-<div>
-<button>Agregar producto</button>
-<button>Limpiar</button>
-</div>
-        </main>
+                <div>
+                    <button>Agregar producto</button>
+                    <button>Limpiar</button>
+                </div>
+
+        </section>
+
+    </main>
 
         <footer class="footer">
             <section>
