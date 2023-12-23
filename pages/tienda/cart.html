@@ -6,98 +6,180 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="../../css/cart.css">
+        <link rel="style" href="../../images/branding/isotype.svg" type="image/Funkoshop-icon">
+
     </head>
     <body>
         <header>
-            <nav>
-             <picture>
-                 <a href="./index.html">  <img src="../img/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funko SHop"> </a>
+           <nav class="navbar container">
+             <picture class="navbar__logo">
+                 <a href="./index.html">  <img src="../../images/branding/logo_light_horizontal.svg" alt="Isologotipo de la marca Funko SHop"> </a>
          
              </picture>
-             <ul>
-                 <li>
-                     <a href="./pages/shop.html">Shop</a>
-                 </li>
-                 <li>
-                     <a href="./pages/contact.html">Contacto</a>
-                 </li>
-                 <li>
-                     <a href="./pages/login.html">Log in</a>
-                 </li>
-                 <li>
-                     <a href="./pages/cart.html"><img src="./img/icons/cart-icon.svg" alt=""></a>
-                 </li>
-             </ul>
+             <ul class="navbar__menu">
+                <li class="navbar__item with-submenu">
+                    <a class="navbar__link with-icon" href="./shop.html">SHOP <iconify-icon icon="mdi:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Funkos</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Remeras</a>
+                        </li>
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Llaveros</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./contact.html">CONTACTO</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="../admin/login.html">LOG IN</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__cart" href="./cart.html"><img src="../../images/icons/cart-icon.svg" alt=""></a>
+                </li>
+            </ul>
+    
             </nav>
          </header>
      
-         <main>
-            <h1>CARRITO DE COMPRAS</h1>
-            <div>
-                <h4>Detalle del producto</h4>
-                <h4>Cantidad</h4>
-                <h4>Total</h4>
-            </div>
+<div class="carrito"> CARRITO DE COMPRAS</div>
 
-            <div>
-                <article>
-                <h3>BABY YODA BLUEBALL</h3>
-                <p>STAR WARS</p>
-                <picture><img src="../img/star-wars/baby-yoda-1.webp" alt="baaby Yoda"></picture>
-                <p>Precio: $1799,99</p>
-            </article>
+         <div class="centrador">
 
-                         <!-- "Acá va el contador de items pero todavía no sabemos cómo hacerlo" -->
-                         <p>$ 3599,99</p>
-                         <img src="" alt="cruz roja dentro de circulo rojo">
+            <div class="page-container">
+    
+                <div class="tabla">
+    
+    
+                    <div class="table-header fondo-cool">
+                        <div class="centrador-head">
+                            <h4>DETALLE DEL PRODUCTO</h4>
+                        </div>
+                        <div class="centrador-head">
+                            <h4>CANTIDAD</h4>
+                        </div>
+                        <div class="centrador-head">
+                            <h4>TOTAL</h4>
+                        </div>
+                    </div>
+    
+                    <div class="table-row fondo-cool">
+                        <div class="dupla-photo-desc">
+                            <div class="photo">
+                                <img src="../../images/star-wars/baby-yoda-1.webp" alt="">
+                            </div>
+    
+                            <div class="descripciones">
+                                <div class="titulo">BABY YODA BLUEBALL</div>
+                                <div class="licencia">STAR WARS</div>
+                                <div class="precio">Precio: $1799.99</div>
+                            </div>
+    
+                        </div>
+    
+                        <!-- /* CONTADOR */  -->
 
-            </div>
+                        <div class="contador">
+                            <div class="numero">2</div>
+                            <div class="botones">
+                                <div class="mas simbolo">+</div>
+                                <div class="menos simbolo">-</div>
+    
+                            </div>
+    
+                        </div>
+                        <div class="total">$3599.98</div>
+                        <div class="icon"> <iconify-icon style="color: #f24e1e; font-weight: bold;"
+                                icon="carbon:close-outline"></iconify-icon>
+                        </div>
+                    </div>
+    
+                    <div class="table-row fondo-cool">
+                        <div class="dupla-photo-desc">
+                            <div class="photo">
+                                <img src="../../images/pokemon/pidgeotto-1.webp" alt="">
+                            </div>
+    
+                            <div class="descripciones">
+                                <div class="titulo">PIDGEOTTO</div>
+                                <div class="licencia">POKEMON</div>
+                                <div>Precio: $1799.99</div>
+                            </div>
+    
+    
+                        </div>
+    
+                        <div class="contador">
+                            <div class="numero">1</div>
+                            <div class="botones">
+                                <div class="mas simbolo">+</div>
+                                <div class="menos simbolo">-</div>
+    
+                            </div>
+    
+                        </div>
+    
+                        <div class="total">$1799.99</div>
+                        <div class="icon">
+                            <iconify-icon style="color: #F24E1E;" icon="carbon:close-outline"></iconify-icon>
+                        </div>
+    
+    
+                    </div>
+                </div>
+    
+             <div class="resumen">
+                <h2 class="resumen__title">RESUMEN</h2>
 
-            <div>
-                <article>
-                <h3>PIDGEOTTO</h3>
-                <p>POKEMON</p>
-                <picture><img src="../img/pokemon/pidgeotto-1.webp" alt="PIDGEOTTO"></picture>
-                <p>Precio: $1799,99</p>
-            </article>
+             <div class="resumen__contenido">
 
-                         <!-- "Acá va el contador de items pero todavía no sabemos cómo hacerlo" -->
-                         <p>$ 1799,99</p>
-                         <img src="" alt="cruz roja dentro de circulo rojo">
+               <div class="resumen__items">
+                <div class="resumen__item1">CANTIDAD DE ELEMENTOS</div>
+                <div class="resumen__item2">SUBTOTAL</div>
+                <div class="resumen__item3">ENVIO</div>
+                <div class="resumen__item4">TOTAL</div>
+               </div>
 
-            </div>
+                <div class="numeros">
+                <p>3</p>
+                <p>$5399,97</p>
+                <p>$0,00</p>
+                <p>$5399,97</p>
+                </div>
 
-            <div>
-                <h2>RESUMEN</h2>
-                <h4>CANTIDAD DE ELEMENTOS</h4>
-                <h4>SUBTOTAL</h4>
-                <h4>ENVIO</h4>
-                <h4>TOTAL</h4>
-                <!-- Valores precios -->
                 <button>
                     
                 </button>
             </div>
+        </div>
 
+        </section>
+
+     
          </main>
 
-        <footer>
-            <section>
-            </section>
-        
-            <nav>
-                <ul>
-                    <li><a href="./pages/shop.html">SHOP</a></li>
-                    <li><a href="./pages/register.html">REGISTRARSE</a></li>
-                    <li><a href="./pages/login.html">LOGIN</a></li>
-                    <li><a href="./pages/contact.html">CONTACTO</a></li>
+         <footer class="footer">
+
+            <nav class="navbar container">
+                <ul class="navbar__items">
+                    <li class="navbar__item"><a class="navbar__link" href="./shop.html">SHOP</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="../admin/register.html">REGISTRARSE</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="../admin/login.html">LOGIN</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="./pages/contact.html">CONTACTO</a></li>
                 </ul>
-                <picture><img src="./img/branding/isotype.svg" alt=""></picture>
+                <picture><img src="../../images/branding/isotype.svg" alt=""></picture>
             </nav>
-            <p>All rights reserved 2023 - Funkoshop &copy;</p>
+            <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
         
-        </footer>
+        </footer> 
         
+        <script src="" async defer></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
     </body>
 </html>
