@@ -228,9 +228,7 @@ animation: fade .7s;
     flex-direction: column;
     gap: var(--spacing-12);
     padding: var(--spacing-16);
-    font-family: var(--base-font);
-    font-size: var(--font-medium);
-    font-weight: 400;
+
 }
 
 .card-item__licence{
@@ -241,7 +239,6 @@ animation: fade .7s;
 .card-item__name{
     font-size: var(--font-medium);
     font-weight: 700;
-    font-family: var(--base-font);
 }
 
 .card-item__description{
@@ -251,11 +248,14 @@ animation: fade .7s;
 }
 
 .card-item__price{
-    font-size: var(--font-jumbo);
-    font-family: var(--base-font);
-    font-weight: 400;
+   font-size: var(--font-xsmall);
 }
 
+.card-item__promo{
+    font-size: var(--font-xsmall);
+    font-weight: 700;
+    color: var(--secondary-solid);
+}
 
 
 /* FOOTER */
