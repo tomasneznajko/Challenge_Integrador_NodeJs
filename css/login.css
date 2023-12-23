@@ -194,6 +194,7 @@ font-size: var(--font-jumbo);
     display: flex;
     gap: var(--spacing-68);
     justify-content: flex-end;
+
 }
 
 .password{
@@ -211,8 +212,24 @@ font-size: var(--font-jumbo);
     margin: var(--spacing-20);
 }
 
+.button-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remember{
+    font-family: var(--base-font);
+    font-weight: 400;
+    font-size: var(--font-medium);
+}
+
 .forget{
     margin: var(--spacing-20);
+    font-family: var(--base-font);
+    font-weight: 400;
+    font-size: var(--font-xsmall);
+    color: #1D84B5;
 }
 /* FOOTER */
 
